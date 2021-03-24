@@ -1,0 +1,26 @@
+<script>
+    grade = parseInt(prompt(" Your grade please : "))
+
+     // what would return :
+     //parseInt( 9.9 )  = 9
+     //parseInt( 9.1 )  = 9
+     //parseInt( 9.5 )  = 9
+     //parseInt( 9.59 ) = 9
+
+    LIMIT = 7
+   
+
+    if ( grade >= 1 && grade <= 4 ) {
+        alert( " Very bad :( ")
+    }  else if (  grade >= 5 && grade <= 6) {
+        alert("bad :( !")
+    }  else if ( grade >= 7 && grade <= 8 ){
+        alert("OK !")
+   }  else if ( grade == 9){
+        alert(" Good ! ")
+    }  else if (grade == 10) {
+        alert(" Excellent! ")
+   }
+
+
+</script>
